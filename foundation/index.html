@@ -1,14 +1,70 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="en">
 
   <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation Demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0/dist/css/foundation.min.css">
     <link rel="stylesheet" href="style.css" type="text/css" media="all">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <head>
+  </head>
 
   <body>
+    <div id="intro">
+      <h1>Team uWu's Foundation Demo</h1>
+      <p>Welcome to our Foundation demo! Here we will demonstrate some of the usefule capabilities of the Foundation for Sites front-end framework. The easiest way to test out these features for yourself is to copy the following CDN link into the head of your HTML file:</p>
+      <code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0/dist/css/foundation.min.css"&gt;</code>
+    </div>
 
-  <body>
+    <div id="seperator">
+      <h2>Key Features of Foundation</h2>
+    </div>
+
+    <div class="tutorial">
+      <h3>XY Grid</h3>
+      <p>The XY Grid allows for better vertical and horizontal alignment of objects. The following is an example of the XY Grid:</p>
+
+      <div class="grid-x grid-margin-x">
+        <div class="cell">full width cell</div>
+      </div>
+      <div class="grid-x grid-margin-x">
+        <div class="cell small-6">6 cells</div>
+        <div class="cell small-6">6 cells</div>
+      </div>
+      <div class="grid-x grid-margin-x">
+        <div class="cell small-3">3 cells</div>
+        <div class="cell small-3">3 cells</div>
+        <div class="cell small-3">3 cells</div>
+        <div class="cell small-3">3 cells</div>
+      </div>
+      <div class="grid-x grid-margin-x">
+        <div class="cell small-1">1 cell</div>
+        <div class="cell small-2">2 cells</div>
+        <div class="cell small-3">3 cells</div>
+        <div class="cell small-6">6 cells</div>
+      </div>
+
+      <br>
+      <p>Each row contains a maximum of 12 cells. Extra cells will overflow onto the next row. Gutters can be added by setting grid-margin-x or grid-padding-x. You can also control the size of cells and how many cells will display on each row on small, medium, or large screens. Resize your browser window (CTRL + or CTRL -) to see this effect on the grid below.</p>
+
+      <div class="grid-x grid-margin-x">
+        <div class="cell small-6 medium-8 large-2">cell</div>
+        <div class="cell small-6 medium-4 large-10">cell</div>
+      </div>
+
+      <br>
+      <p>You can also create vertical grids. You must explicitly declare the height of vertical grids.</p>
+      <div class="grid-y grid-margin-y" style="height: 300px;">
+        <div class="cell small-4">cell</div>
+        <div class="cell small-4">cell</div>
+        <div class="cell small-4">cell</div>
+      </div>
+    </div>
+
+
+
+  </body>
 
 </html>

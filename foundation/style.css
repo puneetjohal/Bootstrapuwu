@@ -1,0 +1,13 @@
+.grid-margin-x {
+  margin: 10px;
+  text-align: center;
+}
+
+.grid-margin-y {
+  margin: 10px;
+  text-align: center;
+}
+
+.cell {
+  background-color: grey;
+}
