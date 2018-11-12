@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html class="no-js" lang="en">
 
   <head>
@@ -14,9 +15,11 @@
   <body>
     <div id="intro">
       <h1>Team uWu's Foundation Demo</h1>
-      <p>Welcome to our Foundation demo! Here we will demonstrate some of the usefule capabilities of the Foundation for Sites front-end framework. The easiest way to test out these features for yourself is to copy the following CDN link into the head of your HTML file:</p>
+      <p>Welcome to our Foundation demo! Here we will demonstrate some of the useful capabilities of the Foundation for Sites front-end framework. The easiest way to test out these features for yourself is to copy the following CDN link into the head of your HTML file:</p>
       <code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0/dist/css/foundation.min.css"&gt;</code>
     </div>
+
+    <hr>
 
     <div id="seperator">
       <h2>Key Features of Foundation</h2>
@@ -47,7 +50,7 @@
       </div>
 
       <br>
-      <p>Each row contains a maximum of 12 cells. Extra cells will overflow onto the next row. Gutters can be added by setting grid-margin-x or grid-padding-x. You can also control the size of cells and how many cells will display on each row on small, medium, or large screens. Resize your browser window (CTRL + or CTRL -) to see this effect on the grid below.</p>
+      <p>Each row contains a maximum of 12 cells. Extra cells will overflow onto the next row. Gutters can be added by setting <code>grid-margin-x</code> or <code>grid-padding-x</code>. You can also control the size of the cells and how many cells will display per row on small, medium, or large screens. Resize your browser window (<kbd>CTRL +</kbd> or <kbd>CTRL -</kbd>) to see this effect on the grid below.</p>
 
       <div class="grid-x grid-margin-x">
         <div class="cell small-6 medium-8 large-2">cell</div>
@@ -57,12 +60,77 @@
       <br>
       <p>You can also create vertical grids. You must explicitly declare the height of vertical grids.</p>
       <div class="grid-y grid-margin-y" style="height: 300px;">
-        <div class="cell small-4">cell</div>
-        <div class="cell small-4">cell</div>
-        <div class="cell small-4">cell</div>
+        <div class="cell small-3">cell</div>
+        <div class="cell small-3">cell</div>
+        <div class="cell small-6">cell</div>
       </div>
     </div>
 
+    <hr>
+
+    <div class="tutorial">
+      <h3>Typography</h3>
+      <p>Foundation gives us access to many cool new features to customize text on webpages. The following are a few examples:</p>
+
+      <dl>
+
+          <dt>Small Header Segments</dt>
+          <dd>
+            <p>You can enclose header text in a <code>&lt;small&gt;</code> tag to have it appear inline with the header, but in a smaller font with a lighter color.</p>
+            <h3>Foundation Demo <small>by Team uWu</small></h3>
+          </dd>
+
+          <dt>Dividers</dt>
+          <dd>
+            <p>You can use <code>&lt;hr&gt;</code> to indicate a thematic break between paragraphs.</p>
+            <hr>
+          </dd>
+
+          <dt>Definition Lists</dt>
+          <dd>
+            <p>These are used to display name-value pairs. A <code>&lt;dl&gt;</code> tag is used to start the list, terms are enclosed in <code>&lt;dt&gt;</code> tags, and definitions are enclosed in <code>&lt;dd&gt;</code> tags. In fact, this list is a defintion list!</p>
+            <dl>
+              <dt>Thluffy Clyde Sinclair</dt>
+              <dd>A wholesome CS mascot and icon.</dd>
+              <dt>Wig</dt>
+              <dd>Snatched.</dd>
+            </dl>
+          </dd>
+
+          <dt>Blockquotes</dt>
+          <dd>
+            <p>These are used to format quotes. Quotes are enclosed in <code>&lt;blockquote&gt;</code> tags, and within those tags, the source is encloced in <code>&lt;cite&gt;</code> tags.</p>
+            <blockquote>
+              No hablo queso.
+              <cite>Topher Brown Mykolyk</cite>
+            </blockquote>
+          </dd>
+
+          <dt>Abbreviations</dt>
+          <dd>
+            <p>You can enclose text in <code>&lt;abbr&gt;</code> tags to have it display the full term when you hover over it with your mouse. The <code>title</code> attribute of this tag must be set equal to the term you want displayed upon hovering.</p>
+            <abbr title="Cascading Style Sheets">CSS</abbr>
+            <br><br>
+          </dd>
+
+          <dt>Code</dt>
+          <dd>
+            <p>You can display code by enclosing it in <code>&lt;code&gt;</code> tags. In order to display opening and closeing arrow brackets properly, you must use <code>&amplt;</code> for opening brakets and <code>&ampgt;</code> for closing brackets.</p>
+            <code>&lt;!DOCTYPE html&gt;</code>
+            <br><br>
+          </dd>
+
+          <dt>Keystrokes</dt>
+          <dd>
+            <p>You can display keystrokes by enclosing them in <code>&lt;kbd&gt;</code> tags.</p>
+            <kbd>Ctrl+Alt+Del</kbd>
+            <br><br>
+          </dd>
+
+
+        </dl>
+
+    </div>
 
 
   </body>
