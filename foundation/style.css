@@ -1,3 +1,27 @@
+navbar {
+  background-color: #104F55;
+  color: #BBB891;
+}
+
+#intro, #seperator, .tutorial, hr {
+  margin: 0 150px;
+}
+
+#intro {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#intro p {
+  width: 700px;
+  margin: 0 auto;
+}
+
+hr {
+  padding: 20px 0px 20px 0px;
+}
+
 .grid-margin-x {
   margin: 10px;
   text-align: center;
@@ -9,8 +33,14 @@
 }
 
 .cell {
-  background-color: grey;
+  background-color: #BDBBB0;
+  height: 50px;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 dl {
   margin-left: 25px;
