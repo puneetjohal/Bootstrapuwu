@@ -1,6 +1,6 @@
-navbar {
-  background-color: #104F55;
-  color: #BBB891;
+.nav {
+  background-color: #170A1C;
+  padding: 10px;
 }
 
 #intro, #seperator, .tutorial, hr {
